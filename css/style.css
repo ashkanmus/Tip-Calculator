@@ -1,0 +1,77 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+::-moz-placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  color: white;
+  opacity: 0.5; /* Firefox */
+}
+
+::-ms-input-placeholder {
+  color: white;
+  opacity: 0.5; /* Firefox */
+}
+
+::placeholder {
+  color: white;
+  opacity: 0.5; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+  opacity: 0.5;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+  opacity: 0.5;
+}
+
+
+.cs-input{
+  caret-color: transparent;
+  min-width: 70px;
+  background-color: #23a6d5 ; 
+  outline: none;
+  padding: 5px 0;
+}
+
+body{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 20s infinite;
+}
+@keyframes gradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+.bg-cs{
+  background-color: #23a6d5 ;
+}
